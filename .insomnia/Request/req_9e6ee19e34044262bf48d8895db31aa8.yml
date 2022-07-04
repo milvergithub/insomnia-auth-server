@@ -1,0 +1,43 @@
+_id: req_9e6ee19e34044262bf48d8895db31aa8
+type: Request
+parentId: wrk_235e2ca751c74cec951f70a1618e12a8
+modified: 1656973826130
+created: 1656973316693
+url: "{{ _.domain }}/oauth/token"
+name: getToken-client-credentials
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_cd23199c48ba4143ada9a7eb7961362e
+      name: username
+      value: admin
+      description: ""
+    - id: pair_c5066e742add49539bf6bf9077368343
+      name: password
+      value: admin
+      description: ""
+    - id: pair_2ef51e6f5f7d4f9e8389e8cd9b1e3fb1
+      name: grant_type
+      value: password
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_6248c4aa063c441a98998ce4a0c4ca49
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: democlient
+  password: democlient
+metaSortKey: -1656973316693
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
