@@ -1,0 +1,24 @@
+_id: req_a579ca007bc0415ea50103953a16fe71
+type: Request
+parentId: wrk_235e2ca751c74cec951f70a1618e12a8
+modified: 1656982723104
+created: 1656977135237
+url: "{{ _['auth-server'] }}/api/v1/users/info"
+name: userInfo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_9e6ee19e34044262bf48d8895db31aa8',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1656973316643
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

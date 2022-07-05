@@ -1,10 +1,10 @@
 _id: req_9e6ee19e34044262bf48d8895db31aa8
 type: Request
 parentId: wrk_235e2ca751c74cec951f70a1618e12a8
-modified: 1656973826130
+modified: 1656982715640
 created: 1656973316693
-url: "{{ _.domain }}/oauth/token"
-name: getToken-client-credentials
+url: "{{ _['auth-server'] }}/oauth/token"
+name: getToken-client-password
 description: ""
 method: POST
 body:
