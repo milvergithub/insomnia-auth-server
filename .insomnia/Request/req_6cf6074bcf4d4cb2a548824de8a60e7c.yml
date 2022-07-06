@@ -1,10 +1,10 @@
-_id: req_a579ca007bc0415ea50103953a16fe71
+_id: req_6cf6074bcf4d4cb2a548824de8a60e7c
 type: Request
 parentId: wrk_235e2ca751c74cec951f70a1618e12a8
-modified: 1656985202574
-created: 1656977135237
-url: "{{ _['auth-server'] }}/api/v1/users/info"
-name: userInfo
+modified: 1656985205221
+created: 1656982762619
+url: "{{ _['lyt-server'] }}/api/v1/messages"
+name: lyt-server
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9e6ee19e34044262bf48d8895db31aa8',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1656973316643
+metaSortKey: -1656973316593
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

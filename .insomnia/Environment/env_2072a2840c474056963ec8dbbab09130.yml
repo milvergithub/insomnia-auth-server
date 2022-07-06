@@ -1,18 +1,18 @@
 _id: env_2072a2840c474056963ec8dbbab09130
 type: Environment
 parentId: env_2ef4fb691409bbb14512c8893154e6befa0a2353
-modified: 1656982681452
+modified: 1656984998320
 created: 1656973239636
 name: local
 data:
-  protocol: http
   auth-server: localhost:9091
   lyt-server: localhost:9092
+  qrm-server: localhost:9093
 dataPropertyOrder:
   "&":
-    - protocol
     - auth-server
     - lyt-server
+    - qrm-server
 color: "#00d684"
 isPrivate: false
 metaSortKey: 1656973239636

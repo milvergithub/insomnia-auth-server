@@ -1,10 +1,10 @@
-_id: req_a579ca007bc0415ea50103953a16fe71
+_id: req_3815f020b57c48ba99efa185f4e166f8
 type: Request
 parentId: wrk_235e2ca751c74cec951f70a1618e12a8
-modified: 1656985202574
-created: 1656977135237
-url: "{{ _['auth-server'] }}/api/v1/users/info"
-name: userInfo
+modified: 1657069257080
+created: 1656984859702
+url: "{{ _['qrm-server'] }}/api/v1/messages"
+name: qrm-merchant
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9e6ee19e34044262bf48d8895db31aa8',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
-metaSortKey: -1656973316643
+metaSortKey: -1656098653655.3125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
