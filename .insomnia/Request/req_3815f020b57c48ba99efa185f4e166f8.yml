@@ -1,7 +1,7 @@
 _id: req_3815f020b57c48ba99efa185f4e166f8
 type: Request
 parentId: wrk_235e2ca751c74cec951f70a1618e12a8
-modified: 1657069257080
+modified: 1657077583873
 created: 1656984859702
 url: "{{ _['qrm-server'] }}/api/v1/messages"
 name: qrm-merchant
@@ -14,6 +14,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_9e6ee19e34044262bf48d8895db31aa8',
     'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+  disabled: false
 metaSortKey: -1656098653655.3125
 isPrivate: false
 settingStoreCookies: true
