@@ -1,0 +1,21 @@
+_id: req_aa4d7a80d69a47228d7af94d12cb4e93
+type: Request
+parentId: fld_934d97eb5a614e7b9f3520b7159f5736
+modified: 1675807420293
+created: 1675807390194
+url: "{{ _.DOMAIN }}/api/v4/document/types"
+name: get Document Types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1675807352054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
