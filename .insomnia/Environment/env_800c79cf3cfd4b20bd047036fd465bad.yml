@@ -1,16 +1,14 @@
 _id: env_800c79cf3cfd4b20bd047036fd465bad
 type: Environment
 parentId: env_2ef4fb691409bbb14512c8893154e6befa0a2353
-modified: 1656984869198
+modified: 1675807319452
 created: 1656983499604
-name: docker
+name: development
 data:
-  auth-server: localhost:9092
-  lyt-server: localhost:9091
+  DOMAIN: https://midplus.interfase.uy
 dataPropertyOrder:
   "&":
-    - auth-server
-    - lyt-server
+    - DOMAIN
 color: null
 isPrivate: false
 metaSortKey: 1656983499604
